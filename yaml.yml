@@ -1,11 +1,18 @@
-q: Question number one, answer is 1
+q: "Question number one, answer is no?"
 o:
- - yes
- - no
+  - yes
+  - no
 a: 1
 ---
-q: Question number one, answer is 2
+q: "Question number two, answer is what?"
 o:
- - 1
- - 2
+  - yes
+  - no
+  - what
 a: 2
+---
+q: "Question number three, answer is yes?"
+o:
+  - yes
+  - no
+a: 0
