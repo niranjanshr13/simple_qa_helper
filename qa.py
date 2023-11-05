@@ -9,7 +9,7 @@ lsts = yaml.load_all(open(args.file,'r'), Loader=yaml.FullLoader)
 
 coll = [ x for x in lsts ]
 correct = 0
-for qnum, lst in tqdm(enumerate(coll):
+for qnum, lst in enumerate(coll):
     question = lst['q']
     options = lst['o']
     answers = str(lst['a'])
